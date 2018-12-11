@@ -1,57 +1,75 @@
 <!DOCTYPE html>
-<html lang="en">
+<!--[if lte IE 6]><html class="preIE7 preIE8 preIE9"><![endif]-->
+<!--[if IE 7]><html class="preIE8 preIE9"><![endif]-->
+<!--[if IE 8]><html class="preIE9"><![endif]-->
+<!--[if gte IE 9]><!-->
+<html>
+<!--<![endif]-->
 
 <head>
-<title>PAUL MARINSKY PORTFOLIO</title>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Paul Marinsky | Web Developer</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Exo|PT+Sans+Narrow: 300, 400, 500, 600, 700" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="assets/styles/layout.css">
+
 </head>
 
-<body>
+<body class="body-wrap">
 
-    <header class="clearfix">
-        <h1>
-          <strong>Paul Marinsky</strong>
-        </h1>
-        <nav>
-          <ul>
-            <li id="contact-link">
-              <a href="contact.html">Contact</a>
-            </li>
-   
-            <li id="portfolio-link">
-              <a href="portfolio.html">Portfolio</a>
-            </li> 
-   
-            <li id="about-link">
-              <a href="index.html">About</a>
-            </li>
+  <!-- SIDEBAR NAVIGATION MENU -->
+  <div class="sidebar-menu">
+    <ul class="inline-menu">
+      <li id="home" class="menu-item active">Home</li>
+      <li class="about menu-item">About</li>
+      <li class="portfolio menu-item">Projects</li>
+      <li class="blog menu-item">Blog</li>
+      <li class="contact menu-item">Contact</li>
+    </ul>
+  </div>
+
+  <!-- MAIN CONTAINER CONTENT AREA -->
+  <div class="home-container">
+    <section class="home" style="background-image: url('assets/images/temp_profile.jpg')">
+      <div class="overlay opacity"></div>
+      <div class="container">
+        <div class="name-block-container col-sm">
+          <div class="row tag">
+            <span>Developing Imagination . . .</span>
+          </div>
+          <div class="name-plate">
+            <h1>
+              PAUL MARINSKY
+            </h1>
+            <h2>
+              Designer & Developer
+            </h2>
+          </div>
+        </div>
+        <div class="social">
+          <ul class="inline-social">
+            <li id="fb" class="facebook menu-item fab fa-facebook fa-3x" style="color: rgb(0, 79, 153)"></li>
+            <li id="tweet" class="twitter menu-item fab fa-twitter fa-3x" style="color: rgb(0, 79, 153)"></li>
+            <li id="linked" class="linkedin menu-item fab fa-linkedin fa-3x" style="color: rgb(0, 79, 153)"></li>
+            <li id="git" class="github menu-item fab fa-github fa-3x" style="color: rgb(0, 79, 153)"></li>
           </ul>
-        </nav>
-      </header>
-
-      
-      <div class="main-content">
-          <h2>About Me</h2>
-          
-        <img id="profile-pic" src="assets/images/Profile Pic.jpg" alt="Paul Marinsky">
-
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio nam iure suscipit laboriosam, dolores error velit perferendis, beatae pariatur rem, saepe praesentium recusandae magnam exercitationem tenetur eos eveniet. Sit, assumenda?
-            Possimus rerum, nesciunt esse impedit dolorem, a tenetur qui vero totam maiores voluptates! Necessitatibus cupiditate, temporibus praesentium non, explicabo qui delectus architecto harum quos cumque ut iste consectetur labore hic.
-            Sapiente autem quo ullam debitis ex, suscipit quas aut at exercitationem quibusdam sed laborum necessitatibus, iusto accusantium ea saepe quam molestiae cum ad qui corporis eveniet. Eius dignissimos labore magni!
-          </p>
         </div>
-        
-        <!--
-        <div class="footer">
-          <p>&copy;2018 Paul Marinsky</p>
-        </div>
-      -->
+      </div>
+  </div>
 
-      
+
+  </section>
+  </div>
+
+
+
 
 
 </body>
+
 </html>
