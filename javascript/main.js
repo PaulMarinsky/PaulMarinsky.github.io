@@ -15,7 +15,7 @@ $(document).ready(function () {
         $('.menu-item').removeClass('active');
         $('.menu-item.about').addClass('active');
     });
-})(jQuery);
+});
 
 /*
 (function ($) {
