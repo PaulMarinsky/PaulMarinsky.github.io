@@ -16,7 +16,15 @@ $(document).ready(function () {
         $('.menu-item.about').addClass('active');
     });
 });
-
+/*
+    //On Click Open Menu Items
+    $('.menu-block, .menu-item').click(function () {
+        $('.name-block').addClass('reverse');
+        $('.name-block-container').addClass('reverse');
+        $('.menu-blocks').addClass('hide');
+        $('.inline-menu-container').addClass('show');
+    });
+*/
 /*
 (function ($) {
     "use strict";
