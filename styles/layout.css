@@ -10,14 +10,14 @@
     [Table of contents]
     
     0. General Styles
-    2. Home Styles
-    3. Menu Styles
-    4. Page Content
-    5. Name Block
-    6. About Block
-    7. Portfolio Block
-    9. Contact Block
-   10. Responsive
+    1. Home Styles
+    2. Menu Styles
+    3. Page Content
+    4. Name Block
+    5. About Block
+    6. Portfolio Block
+    7. Contact Block
+    8. Responsive
 -------------------------------------------------------------------*/
 /* -------------------------------------------------------------------
                         0. General Styles
@@ -58,7 +58,7 @@ img {
 }
 
 
-/* texts */
+/* text */
 
 h1,
 h2,
@@ -113,7 +113,6 @@ h6 {
     line-height: 32px;
     font-weight: 500;
 }
-
 p {
     margin: 0;
     margin-bottom: 30px;
@@ -166,41 +165,6 @@ a:not([href]):not([tabindex]) {
     outline: none;
 }
 
-.btn-download {
-    border: none;
-    font-size: 14px;
-    padding: 16px 55px 16px 25px;
-}
-
-.btn-download:hover {
-    border: none;
-    color: #FFF;
-    background-color: #333;
-    letter-spacing: 2px;
-}
-
-.btn-download:before {
-    position: absolute;
-    content: '\f407';
-    font-family: 'Ionicons';
-    top: 12px;
-    right: 16px;
-    font-size: 24px;
-}
-
-.btn-download:hover:before {
-    -webkit-animation-duration: 1s;
-    animation-duration: 1s;
-    -webkit-animation-fill-mode: both;
-    animation-fill-mode: both;
-    -webkit-animation-iteration-count: infinite;
-    animation-iteration-count: infinite;
-    -webkit-animation-name: fadeOutDown;
-    animation-name: fadeOutDown;
-    -webkit-transform-origin: center bottom;
-    transform-origin: center bottom;
-}
-
 .form-control {
     box-shadow: none;
     -webkit-box-shadow: none;
@@ -246,9 +210,7 @@ a:not([href]):not([tabindex]) {
     opacity: 0.3;
 }
 /*-------------------------------------------------------------------
-
-                        3. Menu Styles
-
+                        2. Menu Styles
 -------------------------------------------------------------------*/
 
 .menu-blocks {
@@ -337,11 +299,6 @@ h2.menu-item:after {
     top: 0;
 }
 
-#close i {
-    font-size: 30px;
-    vertical-align: middle
-}
-
 .inline-menu {
     float: right;
     margin-top: 0;
@@ -402,24 +359,8 @@ h2.menu-item:after {
     color: #FFF;
 }
 
-.close-pop {
-    background-color: #F1F3F6;
-    cursor: pointer;
-    line-height: 40px;
-    height: 40px;
-    position: fixed;
-    text-align: center;
-    width: 69%;
-    right: 13px;
-    top: -60px;
-    transition: all 0.7s;
-    z-index: 1;
-}
-
 /*-------------------------------------------------------------------
-
-                        4. Page Content
-
+                        3. Page Content
 -------------------------------------------------------------------*/
 
 .content-blocks {
@@ -458,27 +399,6 @@ h2.menu-item:after {
     height: auto;
     overflow: hidden;
 }
-
-.content-blocks.pop {
-    left: 100%;
-    opacity: 0.3;
-    top: 0;
-    transition: all 0.3s ease-out;
-}
-
-.content-blocks.pop.show {
-    left: 30%;
-    opacity: 1;
-}
-
-.pagewrap .content-blocks.pop.show {
-    left: 20%;
-}
-
-.content-blocks.pop .content {
-    padding-top: 110px;
-}
-
 .block-content {
     margin: 0 0 70px;
     overflow: hidden;
@@ -495,9 +415,7 @@ h2.menu-item:after {
 }
 
 /*-------------------------------------------------------------------
-
-                        5. NAME BLOCK
-
+                        4. NAME BLOCK
 -------------------------------------------------------------------*/
 
 .name-block {
@@ -604,9 +522,7 @@ h2.menu-item:after {
 }
 
 /*-------------------------------------------------------------------
-
-                        6. ABOUT BLOCK
-
+                        5. ABOUT
 -------------------------------------------------------------------*/
 
 .about-block {
@@ -618,11 +534,6 @@ h2.menu-item:after {
     transition: all 0.5s;
     z-index: 99;
 }
-
-.dark .about-block {
-    border: 1px solid rgba(51, 51, 51, 0.4);
-}
-
 .about-block:hover {
     border: 15px solid rgba(255, 255, 255, 0.1);
 }
@@ -643,13 +554,6 @@ h2.menu-item:after {
     margin-bottom: 30px;
     text-transform: none;
 }
-
-.link {
-    font-style: italic;
-    font-weight: bold;
-    padding: 0 3px;
-}
-
 .sign {
     margin: 30px 0;
 }
@@ -724,7 +628,6 @@ h2.menu-item:after {
 .icon-list li:before {
     position: absolute;
     content: '\f3fd';
-    font-family: 'Ionicons';
     font-size: 24px;
     left: 20px;
     color: #666;
@@ -746,7 +649,6 @@ h2.menu-item:after {
 }
 
 .timeline:after {
-    font-family: 'Ionicons';
     top: 0;
     left: -5px;
     width: 50px;
@@ -863,9 +765,7 @@ h2.menu-item:after {
 }
 
 /*-------------------------------------------------------------------
-
-                        7. PORTFOLIO BLOCK
-
+                        6. PORTFOLIO
 -------------------------------------------------------------------*/
 
 .portfolio-block {
@@ -1139,7 +1039,7 @@ h2.menu-item:after {
 }
 
 /*-------------------------------------------------------------------
-                        9. CONTACT BLOCK
+                        7. CONTACT
 -------------------------------------------------------------------*/
 
 .contact-block {
@@ -1234,7 +1134,7 @@ h2.menu-item:after {
 }
 
 /*-------------------------------------------------------------------
-                        10. RESPONSIVE
+                        8. RESPONSIVE
 -------------------------------------------------------------------*/
 
 @media (min-width:1920px) {
