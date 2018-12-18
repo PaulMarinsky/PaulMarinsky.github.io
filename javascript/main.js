@@ -26,5 +26,16 @@ $(document).ready(function () {
         $('#home').addClass('active');
     });
 
+     //On Click Open Portfolio 
+     $('.portfolio-block, .menu-item.portfolio').on('click', function () {
+        $('.name-block').addClass('hide');
+	    $('.content-blocks').removeClass('show');
+	    $('.content-blocks.portfolio').addClass('show');
+	    $('.menu-item').removeClass('active');
+	    $('.menu-item.portfolio').addClass('active');
+	});
 
+    // Still working to code portfolio page
+    // Still need to resolve categorical filtering and formatting of overlay images
+   
 });
