@@ -17,4 +17,14 @@ $(document).ready(function () {
         $('.menu-item').removeClass('active');
         $('.menu-item.about').addClass('active');
     });
+
+    //On Click Go Home
+    $('#home').on('click', function () {
+        $('.name-block').removeClass('hide');
+        $('.content-blocks').removeClass('show');
+        $('.menu-item').removeClass('active');
+        $('#home').addClass('active');
+    });
+
+
 });
