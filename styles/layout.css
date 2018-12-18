@@ -1845,7 +1845,6 @@ h2.menu-item:after {
     .comment .col-sm-2 {
         padding: 0;
     }
-}
 
 @media (max-width:320px) {
     .inline-menu {
